@@ -1,0 +1,1 @@
+export {getWeatherForecast} from './Weather';
