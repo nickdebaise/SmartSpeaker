@@ -35,8 +35,9 @@ const fs = require('fs');
 
 import {getLocationData} from '../../Helpers/api';
 
+import {config} from '../../Helpers/config.config.js'
 
-const darkSkyKey = "2060ffe09065a4b14dbe3e4bf4d39158";
+const darkSkyKey = config.weatherKey;
 
 
 const createForecastSentence = (data) => {
