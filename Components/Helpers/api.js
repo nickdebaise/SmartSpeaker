@@ -6,7 +6,7 @@ import {getReminders} from '../Modules/Reminders';
 const uuid = require('uuid/v4');
 const v = require("validator");
 
-const googleMapsKey = "AIzaSyDxi832KMvxwZhRNXJjPnbopCJ_QGyK3Eo";
+const googleMapsKey = config.googleMapsApiKey;
 
 
 export const endSession = (text) => {
